@@ -96,7 +96,7 @@
 <main>
   <section id="about">
     <h2>About Me</h2>
-    <p>I'm a passionate Java Developing and focused on building creative and impactful projects. I love coding, learning new technologies, and contributing to open-source.</p>
+    <p>I'm a passionate about Java Developing and focused on building creative and impactful projects. I love coding, learning new technologies, and contributing to open-source.</p>
   </section>
 
   <section id="skills">
