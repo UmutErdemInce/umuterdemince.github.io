@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -51,7 +51,7 @@
 
 <header>
   <h1>Hello, I'm [Umut Erdem Ince]</h1>
-  <p>Welcome to my GitHub Portfolio Website</p>
+  <p>WELCOME TO MY GITHUB PORTFOLIO PAGE</p>
 </header>
 
 <main>
