@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -109,13 +109,12 @@
   </section>
 
  
-  <section id="contact">
+ <section id="contact">
     <h2>Contact</h2>
     <p>Feel free to reach out to me!</p>
     <div class="social-links">
-         <a href="mailto:umuterdem2001@gmail.com">Email</a> |
+      <a href="mailto:umuterdem2001@gmail.com">Email</a> |
       <a href="https://github.com/UmutErdemInce" target="_blank">GitHub</a>
-
     </div>
   </section>
 
