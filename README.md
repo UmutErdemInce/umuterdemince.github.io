@@ -2,17 +2,100 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My GitHub Page</title>
+  <title>About Me | GitHub Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: Arial, sans-serif; padding: 2em; background-color: #f5f5f5; }
-    h1 { color: #333; }
-    p { color: #666; }
-    a { color: #007acc; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #24292e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    h1, h2 {
+      color: #24292e;
+    }
+    p {
+      line-height: 1.6;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .social-links a {
+      margin-right: 10px;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to My GitHub Page!</h1>
-  <p>This is a simple website hosted with GitHub Pages.</p>
-  <p>Edit <code>index.html</code> to change this text!</p>
+
+<header>
+  <h1>Hello, I'm [Umut Erdem Ince]</h1>
+  <p>Welcome to my GitHub Portfolio Website</p>
+</header>
+
+<main>
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate [ "Java Developer"] with a strong interest in [ "Java projects", "AI and machine learning", ].
+    </p>
+    <p>
+      I enjoy building meaningful projects, learning new technologies, and collaborating with the community. Here you can find some of my work, learn more about my skills, and connect with me!
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: Python, Java </li>
+      <li>Frameworks: React, Node.js, Django</li>
+      <li>Tools: Git, Docker, VS Code</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <p>Some of the projects I've worked on:</p>
+    <ul>
+      <li><a href="https://github.com/your-username/project1" target="_blank">Project 1</a> — Brief description.</li>
+      <li><a href="https://github.com/your-username/project2" target="_blank">Project 2</a> — Brief description.</li>
+      <li><a href="https://github.com/your-username/project3" target="_blank">Project 3</a> — Brief description.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <p>If you'd like to collaborate or just say hi, feel free to reach out!</p>
+    <div class="social-links">
+      <a href="mailto:umuterdem2001@gmail.com">Email</a> |
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/umuterdemince" target="_blank">GitHub</a>
+    </div>
+  </section>
+</main>
+
+
+
 </body>
 </html>
