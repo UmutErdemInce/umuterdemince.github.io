@@ -58,10 +58,10 @@
   <section>
     <h2>About Me</h2>
     <p>
-      I'm a passionate [ "Java Developer"] with a strong interest in [ "Java projects", "AI and machine learning", ].
+      I'm a passionate Java Developer with a strong interest in Java projects AI and machine learning.
     </p>
     <p>
-      I enjoy building meaningful projects, learning new technologies, and collaborating with the community. Here you can find some of my work, learn more about my skills, and connect with me!
+      I enjoy building meaningful projects, learning new technologies, and collaborating with the community. Here you can find some of my work, learn more about my skills, and connect with me.
     </p>
   </section>
 
@@ -74,22 +74,13 @@
     </ul>
   </section>
 
-  <section>
-    <h2>Projects</h2>
-    <p>Some of the projects I've worked on:</p>
-    <ul>
-      <li><a href="https://github.com/your-username/project1" target="_blank">Project 1</a> — Brief description.</li>
-      <li><a href="https://github.com/your-username/project2" target="_blank">Project 2</a> — Brief description.</li>
-      <li><a href="https://github.com/your-username/project3" target="_blank">Project 3</a> — Brief description.</li>
-    </ul>
-  </section>
+  
 
   <section>
     <h2>Contact Me</h2>
     <p>If you'd like to collaborate or just say hi, feel free to reach out!</p>
     <div class="social-links">
       <a href="mailto:umuterdem2001@gmail.com">Email</a> |
-      <a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a> |
       <a href="https://github.com/umuterdemince" target="_blank">GitHub</a>
     </div>
   </section>
