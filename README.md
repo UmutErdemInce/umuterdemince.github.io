@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>[Your Name] | GitHub Portfolio</title>
+  <title>UMUT ERDEM INCE | GitHub Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -89,7 +89,7 @@
 <body>
 
 <header>
-  <h1>Hello, I'm [Your Name]</h1>
+  <h1>Hello, I'm Umut Erdem Ince</h1>
   <p>Welcome to my GitHub Portfolio Website</p>
 </header>
 
@@ -113,7 +113,7 @@
     <h2>Contact</h2>
     <p>Feel free to reach out to me!</p>
     <div class="social-links">
-      <a href="mailto:umuterdem2001@gmail.com>Email</a> |
+     <a href="mailto:umuterdem2001@gmail.com>Email</a> |
       <a href="https://github.com/umuterdemince target="_blank">GitHub</a>
     </div>
   </section>
