@@ -1,92 +1,87 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Me | GitHub Portfolio</title>
+  <title>Random User Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
       margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
+      background: #f0f2f5;
     }
-    header {
-      background: #24292e;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    main {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 20px;
+    .card {
       background: white;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      border-radius: 8px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 300px;
     }
-    h1, h2 {
-      color: #24292e;
+    img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin: 10px 0 5px;
     }
     p {
-      line-height: 1.6;
-    }
-    a {
-      color: #0366d6;
-      text-decoration: none;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
+      margin: 5px 0;
       color: #666;
     }
-    .social-links a {
-      margin-right: 10px;
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    button:hover {
+      background: #0056b3;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Hello, I'm [Umut Erdem Ince]</h1>
-  <p>WELCOME TO MY GITHUB PORTFOLIO PAGE</p>
-</header>
+<div class="card" id="user-card">
+  <img src="" alt="User Photo" id="user-photo">
+  <h2 id="user-name">Loading...</h2>
+  <p id="user-email"></p>
+  <p id="user-country"></p>
+  <button onclick="fetchUser()">Load New User</button>
+</div>
 
-<main>
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I'm a passionate Java Developer with a strong interest in Java projects AI and machine learning.
-    </p>
-    <p>
-      I enjoy building meaningful projects, learning new technologies, and collaborating with the community. Here you can find some of my work, learn more about my skills, and connect with me.
-    </p>
-  </section>
+<script>
+  async function fetchUser() {
+    try {
+      const response = await fetch('https://randomuser.me/api/');
+      const data = await response.json();
+      const user = data.results[0];
+      
+      document.getElementById('user-photo').src = user.picture.large;
+      document.getElementById('user-name').textContent = `${user.name.first} ${user.name.last}`;
+      document.getElementById('user-email').textContent = user.email;
+      document.getElementById('user-country').textContent = user.location.country;
+    } catch (error) {
+      console.error('Error fetching user:', error);
+    }
+  }
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Programming Languages: Python, Java </li>
-      <li>Frameworks: React, Node.js, Django</li>
-      <li>Tools: Git, Docker, VS Code</li>
-    </ul>
-  </section>
-
-  
-
-  <section>
-    <h2>Contact Me</h2>
-    <p>If you'd like to collaborate or just say hi, feel free to reach out!</p>
-    <div class="social-links">
-      <a href="mailto:umuterdem2001@gmail.com">Email</a> |
-      <a href="https://github.com/umuterdemince" target="_blank">GitHub</a>
-    </div>
-  </section>
-</main>
-
-
+  // Fetch a user on page load
+  fetchUser();
+</script>
 
 </body>
 </html>
+
